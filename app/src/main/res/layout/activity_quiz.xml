@@ -13,182 +13,201 @@
         tools:context=".QuizActivity">
 
         <TextView
-            android:layout_width="match_parent"
+
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1. Who gave Bhishma the boon that he would die only when he wished?"
-            />
+            android:text="@string/question1"
+            style="@style/questionStyle" />
+
 
         <RadioGroup
-            android:layout_width="match_parent"
+            android:id="@+id/num_one_radio_group"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            >
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
 
             <RadioButton
-                android:layout_width="match_parent"
+                android:id="@+id/shantanu_radio"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Option 1" />
-
+                android:textSize="16sp"
+                android:text="Shantanu" />
             <RadioButton
-                android:layout_width="match_parent"
+                android:id="@+id/krishna_radio"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Option 2"
-                />
+                android:textSize="16sp"
+                android:text="Krishna" />
             <RadioButton
-                android:layout_width="match_parent"
+                android:id="@+id/dhritarashtra_radio"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Option 3"
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="1. Who gave Bhishma the boon that he would die only when he wished?" />
-
+                android:textSize="16sp"
+                android:text="Dhritarashtra" />
             <RadioButton
-                android:layout_width="match_parent"
+
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Option 4"
-                />
+                android:textSize="16sp"
+                android:text="Ved Vyasa" />
 
         </RadioGroup>
+
+
+
+        <!-- Question 2 -->
 
         <TextView
-            android:layout_width="match_parent"
+
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1. Who gave Bhishma the boon that he would die only when he wished?"
+            style="@style/questionStyle"
+            android:text="2. Who was the daughter of Dhritarashtra?"
             />
 
         <RadioGroup
-            android:layout_width="match_parent"
+            android:id="@+id/num_two_radio_group"
             android:layout_height="wrap_content"
-            >
-
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Option 1" />
-
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Option 2"
-                />
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Option 3"
-                />
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Option 4"
-                />
-
-        </RadioGroup>
-
-        <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
-
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Option 1" />
-
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Option 2"
-                />
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Option 3"
-                />
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Option 4"
-                />
-
-        </RadioGroup>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="1. Who gave Bhishma the boon that he would die only when he wished?"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
             />
 
-        <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
 
             <RadioButton
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Option 1" />
-
+                android:textSize="16sp"
+                android:text="Radha" />
             <RadioButton
-                android:layout_width="match_parent"
+                android:id="@+id/dushala_radio"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Option 2"
-                />
+                android:textSize="16sp"
+                android:text="Dushala" />
             <RadioButton
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Option 3"
-                />
+                android:textSize="16sp"
+                android:text="Ganga" />
             <RadioButton
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Option 4"
-                />
+                android:textSize="16sp"
+                android:text="Kunti" />
 
         </RadioGroup>
 
+        <!-- Question 3 -->
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="2. Who gave Bhishma the boon that he would die only when he wished?"
-            />
 
-        <CheckBox
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="check 1" />
-
-        <CheckBox
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="check 2"
-            />
-
-        <CheckBox
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="check 3"
+            style="@style/questionStyle"
+            android:text="3. The great war lasted for?"
             />
 
 
-        <CheckBox
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="check 4"
-            />
 
         <EditText
-            android:layout_width="match_parent"
+            android:id="@+id/edit_text"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Type your answer" />
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:hint="Please enter your answer"
+            android:inputType="text"/>
+
+
+        <!-- Question 4 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            style="@style/questionStyle"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/ganga_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ganga"
+            android:textSize="16sp"/>
+
+        <CheckBox
+            android:id="@+id/kunti_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kunti"
+            android:textSize="16sp"/>
+
+        <CheckBox
+            android:id="@+id/radha_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radha"
+            android:textSize="16sp"/>
+
+        <CheckBox
+            android:id="@+id/satyavati_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satyavati"
+            android:textSize="16sp"
+            android:layout_marginBottom="16sp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/questionStyle"
+            android:text="5. Who recited the Mahabharata?"
+            />
+
+
+        <!-- Question 5 -->
+
+        <RadioGroup
+            android:id="@+id/num_five_radio_group"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Shantanu" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Krishna" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Dhritarashtra" />
+            <RadioButton
+                android:id="@+id/ved_vyasa_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Ved Vyasa" />
+
+        </RadioGroup>
 
         <Button
             android:id="@+id/submit_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Submit"
-            android:layout_gravity="center_horizontal" />
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Submit" />
 
 
     </LinearLayout>
