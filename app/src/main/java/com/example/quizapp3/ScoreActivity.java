@@ -32,7 +32,7 @@ public class ScoreActivity extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent  = new Intent(ScoreActivity.this, MainActivity.class);
+                Intent intent = new Intent(ScoreActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });
